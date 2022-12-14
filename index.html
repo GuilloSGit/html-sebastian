@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Práctico HTML</title>
+</head>
+<body>
+    <!-- 6 sizes of titles -->
+    <h1>Titulo 1</h1> <!-- MUY GRANDE  margin / padding / border -->
+    <h2>Titulo 2</h2> <!-- GRANDE -->
+    <h3>Titulo 3</h3> <!-- MEDIANO -->
+    <h4>Titulo 4</h4> <!-- PEQUEÑO -->
+    <h5>Titulo 5</h5> <!-- MUY PEQUEÑO -->
+    <h6>Titulo 6</h6> <!-- EXTREMADAMENTE PEQUEÑO -->
+
+    <!-- A paragraphs -->
+    <p>Parrafo 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi necessitatibus labore accusamus, sit vitae minus!</p>
+
+    <!-- A list -->
+    <ul style="list-style-type: disc;">
+        <li>Item</li>
+        <li><a href="#">Item</a></li>
+        <li>Item</li>
+    </ul>
+    <ul style="list-style-type:square"> <!-- Unordered list -->
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+    <hr>
+    <ol type="A"> <!-- Ordered list -->
+        <li>Cosa</li>
+        <li>Cosa</li>
+        <li>Cosa</li>
+    </ol>
+    <ol type="1"> <!-- Ordered list -->
+        <li>Cosa</li>
+        <li>Cosa</li>
+        <li>Cosa</li>
+    </ol>
+    <ol type="I"> <!-- Ordered list -->
+        <li>Cosa</li>
+        <li>Cosa</li>
+        <li>Cosa</li>
+    </ol>
+    <hr>
+
+    <!-- A table -->
+    <table>
+        <thead> <!-- Table header -->
+            <tr> <!-- Table row -->
+                <th>Columna 1</th> <!-- Table header -->
+                <th>Columna 2</th> <!-- Table header -->
+                <th>Columna 3</th> <!-- Table header -->
+                <th>Columna 4</th> <!-- Table header -->
+                <th>Columna 5</th> <!-- Table header -->
+            </tr>
+        </thead>
+        <tr>
+            <td>Item 1</td>
+            <td>Item 2</td>
+            <td>Item 3</td>
+            <td>Item 4</td>
+            <td>Item 5</td>
+        </tr>
+        <tr>
+            <td>Item 4</td>
+            <td>Item 5</td>
+            <td>Item 6</td>
+            <td>Item 7</td>
+            <td>Item 7</td>
+            
+        </tr>
+        <tfoot>
+            <td colspan="3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, minus aperiam eligendi earum alias minima fuga enim maxime repudiandae magnam quisquam, atque rerum labore unde ab officiis porro delectus libero quo! Vitae dicta magni, totam quae quas, consequuntur laudantium assumenda iste maiores, neque nostrum esse quo et ullam repudiandae commodi?</td>
+            <td colspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur fuga aspernatur praesentium reiciendis tenetur pariatur.</td>
+        </tfoot>
+    </table>
+    <hr>
+
+    <!-- A form -->
+    <form style="max-width: 350px;" action="index.html" method="post">
+        <label for="name">Nombre</label>
+        <input type="text">
+        <hr>
+        <!-- input type number -->
+        <label for="number">Numero</label>
+        <input type="number">
+        <hr>
+        <!-- input type date -->
+        <label for="date">Fecha</label>
+        <input type="date">
+        <hr>
+        <!-- input type email -->
+        <label for="email">Email</label>
+        <input type="email">
+        <hr>
+        <!-- input type password -->
+        <label for="password">Contraseña</label>
+        <input type="password"> <!-- ***** -->
+        <hr>
+        <!-- input type checkbox -->
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox">Opcion A
+        <input type="checkbox">Opcion B
+        <hr>
+        <!-- input type radio -->
+        <label for="radio">Radio</label>
+        <input type="radio" name="fav_language" value="HTML">Opcion 1
+        <input type="radio" name="fav_language" value="CSS">Opcion 2
+        <hr>
+        <!-- input type file -->
+        <label for="file">Archivo</label>
+        <input type="file" name="file" id="file">
+        <hr>
+        <!-- input type submit -->
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+
+
+
+    <!-- A link -->
+    <a href="https://www.google.com/">Google</a><br>
+    <a href="https://www.jw.org/es" target="_blank">jw.org.es</a>
+    <hr>
+
+    <!-- An image -->
+    <img src="https://c8.alamy.com/comp/2G743XP/10th-july-2021-estdio-do-maracanxe3-rio-de-janeiro-brazil-copa-america-tournament-final-argentina-versus-brazil-the-argentinian-team-celebrate-their-0-1-win-with-the-trophy-as-lionel-messi-kisses-the-silverware-2G743XP.jpg" width="272">
+    <hr>
+
+    <!-- A video -->
+    <video width="320" height="240" controls>
+        <source src="https://www.youtube.com/watch?v=-doQG3koUsk" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    
+    <!-- An audio -->
+    <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <hr>
+
+    <!-- An iframe -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <hr>
+
+    <!-- A div -->
+    <div style="width: 280px; height: 200px; background-color: red;">podemos poner contenido</div>
+    <div style="width: 200px; height: 200px; background-color: purple; "></div>
+    <hr>
+
+    <!-- A span -->
+    <span style="color: #22ff00;">Texto en verde.</span>
+
+    <!-- A span into a paragraph -->
+    <p>Texto <span style="color: blue;">en rojo</span> <span style="color:crimson">otro span</span> dentro de un parrafo.</p>
+    <hr>
+
+    <!-- A button -->
+    <button>Boton</button>
+    <hr>
+
+    <!-- A select -->
+    <select name="select" id="select">
+        <option value="1">Opcion 1</option>
+        <option value="2">Opcion 2</option>
+        <option value="3">Opcion 3</option>
+    </select>
+    <hr>
+
+    <!-- A textarea -->
+    <textarea name="textarea" id="textarea" cols="50" rows="5"></textarea>
+    <hr>
+
+    <!-- A section -->
+    <section style="width: 25%;float:right"> 
+        <h1>Titulo 1</h1>
+        <p>Parrafo 1</p>
+    </section>
+    <section style="width: 25%;float:right">
+        <h1>Titulo 2</h1>
+        <p>Parrafo 1</p>
+    </section>
+    <section style="width: 25%;float:right">
+        <h1>Titulo 3</h1>
+        <p>Parrafo 1</p>
+    </section>
+
+    <p>Lorem ipsum dolor sit amet consectetur <tt>Algún texto"<>"</tt> adipisicing elit. Nemo, amet.</p>
+</body>
+</html>
